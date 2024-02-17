@@ -1,0 +1,9 @@
+{
+	"name": "@pajecawav/prettier-config",
+	"version": "1.0.0",
+	"main": "config.js",
+	"files": [
+		"package.json",
+		"config.js"
+	]
+}
