@@ -5,5 +5,8 @@
 	"files": [
 		"package.json",
 		"config.js"
-	]
+	],
+	"devDependencies": {
+		"prettier": "^3.8.3"
+	}
 }

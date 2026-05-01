@@ -1,3 +1,5 @@
+// @ts-check
+
 /** @type {import("prettier").Config} */
 module.exports = {
 	printWidth: 100,
@@ -10,6 +12,13 @@ module.exports = {
 			files: "*.md",
 			options: {
 				useTabs: false,
+			},
+		},
+		{
+			files: ["tsconfig.json", "tsconfig.*.json"],
+			options: {
+				parser: "json",
+				trailingComma: "none",
 			},
 		},
 	],
