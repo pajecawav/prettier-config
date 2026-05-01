@@ -1,7 +1,7 @@
 // @ts-check
 
 /** @type {import("prettier").Config} */
-module.exports = {
+export default {
 	printWidth: 100,
 	useTabs: true,
 	tabWidth: 4,
